@@ -1,25 +1,28 @@
-#include<iostream>
+//adress in ram
+#include <iostream>
+
 using namespace std;
-
+  
 int main(){
-    // What is a pointer? ----> Data type which holds the address of other data types
-    int a=3;
-    int* b;
-    b = &a;
 
-    // & ---> (Address of) Operator
-    cout<<"The address of a is "<<&a<<endl;
-    cout<<"The address of a is "<<b<<endl;
+    cout<<"rahul what is the adress of rohit"<<endl;
 
-    // * ---> (value at) Dereference operator
-    cout<<"The value at address b is "<<*b<<endl;
 
-    // Pointer to pointer
-    int** c = &b;
-    cout<<"The address of b is "<<&b<<endl;
-    cout<<"The address of b is "<<c<<endl; 
-    cout<<"The value at address c is "<<*c<<endl; 
-    cout<<"The value at address value_at(value_at(c)) is "<<**c<<endl; 
+    string x = "Rohit";
 
-    return 0;
+    string* y = &x;
+
+    cout<<"Adress of rohit is "<<y<< endl;
+
+    cout << "I think this is adress of rohit's house" <<endl;
+
+    cout<<"yes"<<endl;
+
+    string** z = &y;
+
+    cout<<"Ok, it fine that he is in his house which location in his house"<<endl;
+
+    cout<<"Location of rohit in his house is "<<z<<endl;
+
+return 0;
 }
