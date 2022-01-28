@@ -210,7 +210,7 @@ h:
             cout<< "Total sandwich collection of the day : "<<Total_sandwich<<endl;
 
                 int T= Total_rooms+Total_pizza+Total_pasta+Total_burger+Total_milkshake+Total_sandwich;
-                cout<<T<<endl;
+                cout<<"Total collection of the day is "<<T<<endl;
             }
             else
             {
